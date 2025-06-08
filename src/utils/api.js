@@ -43,7 +43,7 @@ const mockWeatherData = {
         "name": "London",
         "cod": 200
     },
-    'NewYork': {
+    'New York': {
         "coord": {
             "lon": -74.006,
             "lat": 40.7143
@@ -220,3 +220,10 @@ const mockWeatherData = {
         "cod": 200
     }
 }
+
+export const fetchWeather = async (city) => {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    return mockWeatherData[city]
+};
+
+export default mockWeatherData;
