@@ -17,7 +17,7 @@ const WeatherDisplay = ({city}) => {
         }
     }, [city]);
 
-    console.log(weatherData);
+    // console.log(weatherData);
 
     return (
         <div>

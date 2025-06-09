@@ -1,0 +1,32 @@
+
+
+
+.forecast-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.forecast-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 140px;
+    background-color: #f8f9fa;
+}
+
+.forecast-card h4 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.forecast-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.forecast-card p {
+    margin: 4px 0;
+}
