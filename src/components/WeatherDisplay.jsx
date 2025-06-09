@@ -5,6 +5,7 @@ const WeatherDisplay = ({city}) => {
     const [weatherData, setWeatherData] = useState(null);
 
     const weatherDataPromise = useWeatherData(city);
+
     useEffect(() => {
         if (city) {
             weatherDataPromise

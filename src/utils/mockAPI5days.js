@@ -7,15 +7,15 @@ const mockAPI5days = {
             {
                 "dt": 1749470400,
                 "main": {
-                    "temp": 290.22,
-                    "feels_like": 289.68,
-                    "temp_min": 290.22,
-                    "temp_max": 291.11,
+                    "temp": 18.18,
+                    "feels_like": 17.54,
+                    "temp_min": 18.18,
+                    "temp_max": 18.18,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1017,
-                    "humidity": 65,
-                    "temp_kf": -0.89
+                    "humidity": 57,
+                    "temp_kf": 0
                 },
                 "weather": [
                     {
@@ -26,7 +26,7 @@ const mockAPI5days = {
                     }
                 ],
                 "clouds": {
-                    "all": 84
+                    "all": 85
                 },
                 "wind": {
                     "speed": 3.86,
@@ -46,15 +46,15 @@ const mockAPI5days = {
             {
                 "dt": 1749481200,
                 "main": {
-                    "temp": 291.8,
-                    "feels_like": 291.26,
-                    "temp_min": 291.8,
-                    "temp_max": 292.81,
+                    "temp": 18.57,
+                    "feels_like": 17.94,
+                    "temp_min": 18.57,
+                    "temp_max": 19.35,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1017,
-                    "humidity": 59,
-                    "temp_kf": -1.01
+                    "humidity": 56,
+                    "temp_kf": -0.78
                 },
                 "weather": [
                     {
@@ -65,7 +65,7 @@ const mockAPI5days = {
                     }
                 ],
                 "clouds": {
-                    "all": 94
+                    "all": 90
                 },
                 "wind": {
                     "speed": 3.77,
@@ -82,15 +82,15 @@ const mockAPI5days = {
             {
                 "dt": 1749492000,
                 "main": {
-                    "temp": 290.91,
-                    "feels_like": 290.33,
-                    "temp_min": 290.91,
-                    "temp_max": 290.91,
-                    "pressure": 1019,
-                    "sea_level": 1019,
+                    "temp": 17.9,
+                    "feels_like": 17.31,
+                    "temp_min": 17.76,
+                    "temp_max": 17.9,
+                    "pressure": 1020,
+                    "sea_level": 1020,
                     "grnd_level": 1015,
-                    "humidity": 61,
-                    "temp_kf": 0
+                    "humidity": 60,
+                    "temp_kf": 0.14
                 },
                 "weather": [
                     {
@@ -101,7 +101,7 @@ const mockAPI5days = {
                     }
                 ],
                 "clouds": {
-                    "all": 100
+                    "all": 95
                 },
                 "wind": {
                     "speed": 3.42,
@@ -118,10 +118,10 @@ const mockAPI5days = {
             {
                 "dt": 1749502800,
                 "main": {
-                    "temp": 289.54,
-                    "feels_like": 289.19,
-                    "temp_min": 289.54,
-                    "temp_max": 289.54,
+                    "temp": 16.39,
+                    "feels_like": 16.04,
+                    "temp_min": 16.39,
+                    "temp_max": 16.39,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -154,10 +154,10 @@ const mockAPI5days = {
             {
                 "dt": 1749513600,
                 "main": {
-                    "temp": 287.52,
-                    "feels_like": 287.13,
-                    "temp_min": 287.52,
-                    "temp_max": 287.52,
+                    "temp": 14.37,
+                    "feels_like": 13.98,
+                    "temp_min": 14.37,
+                    "temp_max": 14.37,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -190,10 +190,10 @@ const mockAPI5days = {
             {
                 "dt": 1749524400,
                 "main": {
-                    "temp": 286.04,
-                    "feels_like": 285.55,
-                    "temp_min": 286.04,
-                    "temp_max": 286.04,
+                    "temp": 12.89,
+                    "feels_like": 12.4,
+                    "temp_min": 12.89,
+                    "temp_max": 12.89,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1013,
@@ -226,10 +226,10 @@ const mockAPI5days = {
             {
                 "dt": 1749535200,
                 "main": {
-                    "temp": 287.16,
-                    "feels_like": 286.78,
-                    "temp_min": 287.16,
-                    "temp_max": 287.16,
+                    "temp": 14.01,
+                    "feels_like": 13.63,
+                    "temp_min": 14.01,
+                    "temp_max": 14.01,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -262,10 +262,10 @@ const mockAPI5days = {
             {
                 "dt": 1749546000,
                 "main": {
-                    "temp": 289.24,
-                    "feels_like": 289.05,
-                    "temp_min": 289.24,
-                    "temp_max": 289.24,
+                    "temp": 16.09,
+                    "feels_like": 15.9,
+                    "temp_min": 16.09,
+                    "temp_max": 16.09,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1013,
@@ -298,10 +298,10 @@ const mockAPI5days = {
             {
                 "dt": 1749556800,
                 "main": {
-                    "temp": 293.25,
-                    "feels_like": 293.01,
-                    "temp_min": 293.25,
-                    "temp_max": 293.25,
+                    "temp": 20.1,
+                    "feels_like": 19.86,
+                    "temp_min": 20.1,
+                    "temp_max": 20.1,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -337,10 +337,10 @@ const mockAPI5days = {
             {
                 "dt": 1749567600,
                 "main": {
-                    "temp": 292.94,
-                    "feels_like": 292.7,
-                    "temp_min": 292.94,
-                    "temp_max": 292.94,
+                    "temp": 19.79,
+                    "feels_like": 19.55,
+                    "temp_min": 19.79,
+                    "temp_max": 19.79,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -376,10 +376,10 @@ const mockAPI5days = {
             {
                 "dt": 1749578400,
                 "main": {
-                    "temp": 292.76,
-                    "feels_like": 292.32,
-                    "temp_min": 292.76,
-                    "temp_max": 292.76,
+                    "temp": 19.61,
+                    "feels_like": 19.17,
+                    "temp_min": 19.61,
+                    "temp_max": 19.61,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -415,10 +415,10 @@ const mockAPI5days = {
             {
                 "dt": 1749589200,
                 "main": {
-                    "temp": 290.77,
-                    "feels_like": 290.34,
-                    "temp_min": 290.77,
-                    "temp_max": 290.77,
+                    "temp": 17.62,
+                    "feels_like": 17.19,
+                    "temp_min": 17.62,
+                    "temp_max": 17.62,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1016,
@@ -451,10 +451,10 @@ const mockAPI5days = {
             {
                 "dt": 1749600000,
                 "main": {
-                    "temp": 287.62,
-                    "feels_like": 287.19,
-                    "temp_min": 287.62,
-                    "temp_max": 287.62,
+                    "temp": 14.47,
+                    "feels_like": 14.04,
+                    "temp_min": 14.47,
+                    "temp_max": 14.47,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1016,
@@ -487,10 +487,10 @@ const mockAPI5days = {
             {
                 "dt": 1749610800,
                 "main": {
-                    "temp": 286.51,
-                    "feels_like": 286.02,
-                    "temp_min": 286.51,
-                    "temp_max": 286.51,
+                    "temp": 13.36,
+                    "feels_like": 12.87,
+                    "temp_min": 13.36,
+                    "temp_max": 13.36,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1016,
@@ -523,10 +523,10 @@ const mockAPI5days = {
             {
                 "dt": 1749621600,
                 "main": {
-                    "temp": 288.74,
-                    "feels_like": 288.29,
-                    "temp_min": 288.74,
-                    "temp_max": 288.74,
+                    "temp": 15.59,
+                    "feels_like": 15.14,
+                    "temp_min": 15.59,
+                    "temp_max": 15.59,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1016,
@@ -559,10 +559,10 @@ const mockAPI5days = {
             {
                 "dt": 1749632400,
                 "main": {
-                    "temp": 293.71,
-                    "feels_like": 293.49,
-                    "temp_min": 293.71,
-                    "temp_max": 293.71,
+                    "temp": 20.56,
+                    "feels_like": 20.34,
+                    "temp_min": 20.56,
+                    "temp_max": 20.56,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1016,
@@ -595,10 +595,10 @@ const mockAPI5days = {
             {
                 "dt": 1749643200,
                 "main": {
-                    "temp": 295.87,
-                    "feels_like": 295.66,
-                    "temp_min": 295.87,
-                    "temp_max": 295.87,
+                    "temp": 22.72,
+                    "feels_like": 22.51,
+                    "temp_min": 22.72,
+                    "temp_max": 22.72,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -634,10 +634,10 @@ const mockAPI5days = {
             {
                 "dt": 1749654000,
                 "main": {
-                    "temp": 294.2,
-                    "feels_like": 293.98,
-                    "temp_min": 294.2,
-                    "temp_max": 294.2,
+                    "temp": 21.05,
+                    "feels_like": 20.83,
+                    "temp_min": 21.05,
+                    "temp_max": 21.05,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1014,
@@ -670,10 +670,10 @@ const mockAPI5days = {
             {
                 "dt": 1749664800,
                 "main": {
-                    "temp": 293.06,
-                    "feels_like": 292.59,
-                    "temp_min": 293.06,
-                    "temp_max": 293.06,
+                    "temp": 19.91,
+                    "feels_like": 19.44,
+                    "temp_min": 19.91,
+                    "temp_max": 19.91,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1013,
@@ -706,10 +706,10 @@ const mockAPI5days = {
             {
                 "dt": 1749675600,
                 "main": {
-                    "temp": 289.36,
-                    "feels_like": 288.71,
-                    "temp_min": 289.36,
-                    "temp_max": 289.36,
+                    "temp": 16.21,
+                    "feels_like": 15.56,
+                    "temp_min": 16.21,
+                    "temp_max": 16.21,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -742,10 +742,10 @@ const mockAPI5days = {
             {
                 "dt": 1749686400,
                 "main": {
-                    "temp": 289.23,
-                    "feels_like": 288.54,
-                    "temp_min": 289.23,
-                    "temp_max": 289.23,
+                    "temp": 16.08,
+                    "feels_like": 15.39,
+                    "temp_min": 16.08,
+                    "temp_max": 16.08,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1011,
@@ -778,10 +778,10 @@ const mockAPI5days = {
             {
                 "dt": 1749697200,
                 "main": {
-                    "temp": 288.14,
-                    "feels_like": 287.34,
-                    "temp_min": 288.14,
-                    "temp_max": 288.14,
+                    "temp": 14.99,
+                    "feels_like": 14.19,
+                    "temp_min": 14.99,
+                    "temp_max": 14.99,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1010,
@@ -814,10 +814,10 @@ const mockAPI5days = {
             {
                 "dt": 1749708000,
                 "main": {
-                    "temp": 289.27,
-                    "feels_like": 288.61,
-                    "temp_min": 289.27,
-                    "temp_max": 289.27,
+                    "temp": 16.12,
+                    "feels_like": 15.46,
+                    "temp_min": 16.12,
+                    "temp_max": 16.12,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1009,
@@ -850,10 +850,10 @@ const mockAPI5days = {
             {
                 "dt": 1749718800,
                 "main": {
-                    "temp": 291.57,
-                    "feels_like": 291.16,
-                    "temp_min": 291.57,
-                    "temp_max": 291.57,
+                    "temp": 18.42,
+                    "feels_like": 18.01,
+                    "temp_min": 18.42,
+                    "temp_max": 18.42,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1010,
@@ -889,10 +889,10 @@ const mockAPI5days = {
             {
                 "dt": 1749729600,
                 "main": {
-                    "temp": 293.62,
-                    "feels_like": 293.84,
-                    "temp_min": 293.62,
-                    "temp_max": 293.62,
+                    "temp": 20.47,
+                    "feels_like": 20.69,
+                    "temp_min": 20.47,
+                    "temp_max": 20.47,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1011,
@@ -928,10 +928,10 @@ const mockAPI5days = {
             {
                 "dt": 1749740400,
                 "main": {
-                    "temp": 297.77,
-                    "feels_like": 297.59,
-                    "temp_min": 297.77,
-                    "temp_max": 297.77,
+                    "temp": 24.62,
+                    "feels_like": 24.44,
+                    "temp_min": 24.62,
+                    "temp_max": 24.62,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1011,
@@ -964,10 +964,10 @@ const mockAPI5days = {
             {
                 "dt": 1749751200,
                 "main": {
-                    "temp": 295.85,
-                    "feels_like": 295.61,
-                    "temp_min": 295.85,
-                    "temp_max": 295.85,
+                    "temp": 22.7,
+                    "feels_like": 22.46,
+                    "temp_min": 22.7,
+                    "temp_max": 22.7,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -1000,10 +1000,10 @@ const mockAPI5days = {
             {
                 "dt": 1749762000,
                 "main": {
-                    "temp": 291.92,
-                    "feels_like": 291.78,
-                    "temp_min": 291.92,
-                    "temp_max": 291.92,
+                    "temp": 18.77,
+                    "feels_like": 18.63,
+                    "temp_min": 18.77,
+                    "temp_max": 18.77,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -1036,10 +1036,10 @@ const mockAPI5days = {
             {
                 "dt": 1749772800,
                 "main": {
-                    "temp": 290.37,
-                    "feels_like": 290.26,
-                    "temp_min": 290.37,
-                    "temp_max": 290.37,
+                    "temp": 17.22,
+                    "feels_like": 17.11,
+                    "temp_min": 17.22,
+                    "temp_max": 17.22,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -1072,10 +1072,10 @@ const mockAPI5days = {
             {
                 "dt": 1749783600,
                 "main": {
-                    "temp": 289.19,
-                    "feels_like": 289.1,
-                    "temp_min": 289.19,
-                    "temp_max": 289.19,
+                    "temp": 16.04,
+                    "feels_like": 15.95,
+                    "temp_min": 16.04,
+                    "temp_max": 16.04,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -1108,10 +1108,10 @@ const mockAPI5days = {
             {
                 "dt": 1749794400,
                 "main": {
-                    "temp": 291.12,
-                    "feels_like": 290.96,
-                    "temp_min": 291.12,
-                    "temp_max": 291.12,
+                    "temp": 17.97,
+                    "feels_like": 17.81,
+                    "temp_min": 17.97,
+                    "temp_max": 17.97,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1015,
@@ -1144,10 +1144,10 @@ const mockAPI5days = {
             {
                 "dt": 1749805200,
                 "main": {
-                    "temp": 296.69,
-                    "feels_like": 296.51,
-                    "temp_min": 296.69,
-                    "temp_max": 296.69,
+                    "temp": 23.54,
+                    "feels_like": 23.36,
+                    "temp_min": 23.54,
+                    "temp_max": 23.54,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1015,
@@ -1180,10 +1180,10 @@ const mockAPI5days = {
             {
                 "dt": 1749816000,
                 "main": {
-                    "temp": 300.24,
-                    "feels_like": 300.35,
-                    "temp_min": 300.24,
-                    "temp_max": 300.24,
+                    "temp": 27.09,
+                    "feels_like": 27.2,
+                    "temp_min": 27.09,
+                    "temp_max": 27.09,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -1216,10 +1216,10 @@ const mockAPI5days = {
             {
                 "dt": 1749826800,
                 "main": {
-                    "temp": 300.5,
-                    "feels_like": 300.84,
-                    "temp_min": 300.5,
-                    "temp_max": 300.5,
+                    "temp": 27.35,
+                    "feels_like": 27.69,
+                    "temp_min": 27.35,
+                    "temp_max": 27.35,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1013,
@@ -1252,10 +1252,10 @@ const mockAPI5days = {
             {
                 "dt": 1749837600,
                 "main": {
-                    "temp": 297.22,
-                    "feels_like": 297.38,
-                    "temp_min": 297.22,
-                    "temp_max": 297.22,
+                    "temp": 24.07,
+                    "feels_like": 24.23,
+                    "temp_min": 24.07,
+                    "temp_max": 24.07,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1011,
@@ -1291,10 +1291,10 @@ const mockAPI5days = {
             {
                 "dt": 1749848400,
                 "main": {
-                    "temp": 291.25,
-                    "feels_like": 291.54,
-                    "temp_min": 291.25,
-                    "temp_max": 291.25,
+                    "temp": 18.1,
+                    "feels_like": 18.39,
+                    "temp_min": 18.1,
+                    "temp_max": 18.1,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1012,
@@ -1330,10 +1330,10 @@ const mockAPI5days = {
             {
                 "dt": 1749859200,
                 "main": {
-                    "temp": 292,
-                    "feels_like": 291.95,
-                    "temp_min": 292,
-                    "temp_max": 292,
+                    "temp": 18.85,
+                    "feels_like": 18.8,
+                    "temp_min": 18.85,
+                    "temp_max": 18.85,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1009,
@@ -1369,10 +1369,10 @@ const mockAPI5days = {
             {
                 "dt": 1749870000,
                 "main": {
-                    "temp": 291.37,
-                    "feels_like": 291.39,
-                    "temp_min": 291.37,
-                    "temp_max": 291.37,
+                    "temp": 18.22,
+                    "feels_like": 18.24,
+                    "temp_min": 18.22,
+                    "temp_max": 18.22,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1010,
@@ -1405,10 +1405,10 @@ const mockAPI5days = {
             {
                 "dt": 1749880800,
                 "main": {
-                    "temp": 292.18,
-                    "feels_like": 292.25,
-                    "temp_min": 292.18,
-                    "temp_max": 292.18,
+                    "temp": 19.03,
+                    "feels_like": 19.1,
+                    "temp_min": 19.03,
+                    "temp_max": 19.03,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1011,
@@ -1441,10 +1441,10 @@ const mockAPI5days = {
             {
                 "dt": 1749891600,
                 "main": {
-                    "temp": 296.5,
-                    "feels_like": 296.67,
-                    "temp_min": 296.5,
-                    "temp_max": 296.5,
+                    "temp": 23.35,
+                    "feels_like": 23.52,
+                    "temp_min": 23.35,
+                    "temp_max": 23.35,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1012,
@@ -1497,15 +1497,15 @@ const mockAPI5days = {
             {
                 "dt": 1749470400,
                 "main": {
-                    "temp": 289.95,
-                    "feels_like": 290.01,
-                    "temp_min": 289.95,
-                    "temp_max": 290.59,
-                    "pressure": 1011,
-                    "sea_level": 1011,
+                    "temp": 16.89,
+                    "feels_like": 16.98,
+                    "temp_min": 16.89,
+                    "temp_max": 16.89,
+                    "pressure": 1012,
+                    "sea_level": 1012,
                     "grnd_level": 1011,
-                    "humidity": 89,
-                    "temp_kf": -0.64
+                    "humidity": 90,
+                    "temp_kf": 0
                 },
                 "weather": [
                     {
@@ -1536,15 +1536,15 @@ const mockAPI5days = {
             {
                 "dt": 1749481200,
                 "main": {
-                    "temp": 291.12,
-                    "feels_like": 291.22,
-                    "temp_min": 291.12,
-                    "temp_max": 291.87,
+                    "temp": 17.34,
+                    "feels_like": 17.43,
+                    "temp_min": 17.34,
+                    "temp_max": 18.25,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1012,
-                    "humidity": 86,
-                    "temp_kf": -0.75
+                    "humidity": 88,
+                    "temp_kf": -0.91
                 },
                 "weather": [
                     {
@@ -1572,15 +1572,15 @@ const mockAPI5days = {
             {
                 "dt": 1749492000,
                 "main": {
-                    "temp": 291.38,
-                    "feels_like": 291.4,
-                    "temp_min": 291.38,
-                    "temp_max": 291.38,
+                    "temp": 17.78,
+                    "feels_like": 17.81,
+                    "temp_min": 17.78,
+                    "temp_max": 18.23,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1011,
-                    "humidity": 82,
-                    "temp_kf": 0
+                    "humidity": 84,
+                    "temp_kf": -0.45
                 },
                 "weather": [
                     {
@@ -1608,10 +1608,10 @@ const mockAPI5days = {
             {
                 "dt": 1749502800,
                 "main": {
-                    "temp": 292.43,
-                    "feels_like": 292.5,
-                    "temp_min": 292.43,
-                    "temp_max": 292.43,
+                    "temp": 19.28,
+                    "feels_like": 19.35,
+                    "temp_min": 19.28,
+                    "temp_max": 19.28,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1010,
@@ -1644,10 +1644,10 @@ const mockAPI5days = {
             {
                 "dt": 1749513600,
                 "main": {
-                    "temp": 293.43,
-                    "feels_like": 293.71,
-                    "temp_min": 293.43,
-                    "temp_max": 293.43,
+                    "temp": 20.28,
+                    "feels_like": 20.56,
+                    "temp_min": 20.28,
+                    "temp_max": 20.28,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1011,
@@ -1680,10 +1680,10 @@ const mockAPI5days = {
             {
                 "dt": 1749524400,
                 "main": {
-                    "temp": 292.29,
-                    "feels_like": 292.53,
-                    "temp_min": 292.29,
-                    "temp_max": 292.29,
+                    "temp": 19.14,
+                    "feels_like": 19.38,
+                    "temp_min": 19.14,
+                    "temp_max": 19.14,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1011,
@@ -1716,10 +1716,10 @@ const mockAPI5days = {
             {
                 "dt": 1749535200,
                 "main": {
-                    "temp": 292.11,
-                    "feels_like": 292.41,
-                    "temp_min": 292.11,
-                    "temp_max": 292.11,
+                    "temp": 18.96,
+                    "feels_like": 19.26,
+                    "temp_min": 18.96,
+                    "temp_max": 18.96,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1010,
@@ -1752,10 +1752,10 @@ const mockAPI5days = {
             {
                 "dt": 1749546000,
                 "main": {
-                    "temp": 291.81,
-                    "feels_like": 292.13,
-                    "temp_min": 291.81,
-                    "temp_max": 291.81,
+                    "temp": 18.66,
+                    "feels_like": 18.98,
+                    "temp_min": 18.66,
+                    "temp_max": 18.66,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1009,
@@ -1788,10 +1788,10 @@ const mockAPI5days = {
             {
                 "dt": 1749556800,
                 "main": {
-                    "temp": 291.65,
-                    "feels_like": 292.06,
-                    "temp_min": 291.65,
-                    "temp_max": 291.65,
+                    "temp": 18.5,
+                    "feels_like": 18.91,
+                    "temp_min": 18.5,
+                    "temp_max": 18.5,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1009,
@@ -1827,10 +1827,10 @@ const mockAPI5days = {
             {
                 "dt": 1749567600,
                 "main": {
-                    "temp": 292,
-                    "feels_like": 292.42,
-                    "temp_min": 292,
-                    "temp_max": 292,
+                    "temp": 18.85,
+                    "feels_like": 19.27,
+                    "temp_min": 18.85,
+                    "temp_max": 18.85,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1010,
@@ -1866,10 +1866,10 @@ const mockAPI5days = {
             {
                 "dt": 1749578400,
                 "main": {
-                    "temp": 292.5,
-                    "feels_like": 292.92,
-                    "temp_min": 292.5,
-                    "temp_max": 292.5,
+                    "temp": 19.35,
+                    "feels_like": 19.77,
+                    "temp_min": 19.35,
+                    "temp_max": 19.35,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1010,
@@ -1905,10 +1905,10 @@ const mockAPI5days = {
             {
                 "dt": 1749589200,
                 "main": {
-                    "temp": 292.72,
-                    "feels_like": 293.21,
-                    "temp_min": 292.72,
-                    "temp_max": 292.72,
+                    "temp": 19.57,
+                    "feels_like": 20.06,
+                    "temp_min": 19.57,
+                    "temp_max": 19.57,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1010,
@@ -1944,10 +1944,10 @@ const mockAPI5days = {
             {
                 "dt": 1749600000,
                 "main": {
-                    "temp": 293.57,
-                    "feels_like": 294.12,
-                    "temp_min": 293.57,
-                    "temp_max": 293.57,
+                    "temp": 20.42,
+                    "feels_like": 20.97,
+                    "temp_min": 20.42,
+                    "temp_max": 20.42,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1011,
@@ -1980,10 +1980,10 @@ const mockAPI5days = {
             {
                 "dt": 1749610800,
                 "main": {
-                    "temp": 292.69,
-                    "feels_like": 293.18,
-                    "temp_min": 292.69,
-                    "temp_max": 292.69,
+                    "temp": 19.54,
+                    "feels_like": 20.03,
+                    "temp_min": 19.54,
+                    "temp_max": 19.54,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1012,
@@ -2019,10 +2019,10 @@ const mockAPI5days = {
             {
                 "dt": 1749621600,
                 "main": {
-                    "temp": 291.8,
-                    "feels_like": 292.15,
-                    "temp_min": 291.8,
-                    "temp_max": 291.8,
+                    "temp": 18.65,
+                    "feels_like": 19,
+                    "temp_min": 18.65,
+                    "temp_max": 18.65,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1013,
@@ -2055,10 +2055,10 @@ const mockAPI5days = {
             {
                 "dt": 1749632400,
                 "main": {
-                    "temp": 290.58,
-                    "feels_like": 290.65,
-                    "temp_min": 290.58,
-                    "temp_max": 290.58,
+                    "temp": 17.43,
+                    "feels_like": 17.5,
+                    "temp_min": 17.43,
+                    "temp_max": 17.43,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1014,
@@ -2091,10 +2091,10 @@ const mockAPI5days = {
             {
                 "dt": 1749643200,
                 "main": {
-                    "temp": 292.49,
-                    "feels_like": 292.31,
-                    "temp_min": 292.49,
-                    "temp_max": 292.49,
+                    "temp": 19.34,
+                    "feels_like": 19.16,
+                    "temp_min": 19.34,
+                    "temp_max": 19.34,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1016,
@@ -2127,10 +2127,10 @@ const mockAPI5days = {
             {
                 "dt": 1749654000,
                 "main": {
-                    "temp": 297.26,
-                    "feels_like": 296.98,
-                    "temp_min": 297.26,
-                    "temp_max": 297.26,
+                    "temp": 24.11,
+                    "feels_like": 23.83,
+                    "temp_min": 24.11,
+                    "temp_max": 24.11,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1016,
@@ -2163,10 +2163,10 @@ const mockAPI5days = {
             {
                 "dt": 1749664800,
                 "main": {
-                    "temp": 300.74,
-                    "feels_like": 300.35,
-                    "temp_min": 300.74,
-                    "temp_max": 300.74,
+                    "temp": 27.59,
+                    "feels_like": 27.2,
+                    "temp_min": 27.59,
+                    "temp_max": 27.59,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -2199,10 +2199,10 @@ const mockAPI5days = {
             {
                 "dt": 1749675600,
                 "main": {
-                    "temp": 300.63,
-                    "feels_like": 300.44,
-                    "temp_min": 300.63,
-                    "temp_max": 300.63,
+                    "temp": 27.48,
+                    "feels_like": 27.29,
+                    "temp_min": 27.48,
+                    "temp_max": 27.48,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1014,
@@ -2235,10 +2235,10 @@ const mockAPI5days = {
             {
                 "dt": 1749686400,
                 "main": {
-                    "temp": 298.16,
-                    "feels_like": 298.13,
-                    "temp_min": 298.16,
-                    "temp_max": 298.16,
+                    "temp": 25.01,
+                    "feels_like": 24.98,
+                    "temp_min": 25.01,
+                    "temp_max": 25.01,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -2271,10 +2271,10 @@ const mockAPI5days = {
             {
                 "dt": 1749697200,
                 "main": {
-                    "temp": 295.64,
-                    "feels_like": 295.59,
-                    "temp_min": 295.64,
-                    "temp_max": 295.64,
+                    "temp": 22.49,
+                    "feels_like": 22.44,
+                    "temp_min": 22.49,
+                    "temp_max": 22.49,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1016,
@@ -2307,10 +2307,10 @@ const mockAPI5days = {
             {
                 "dt": 1749708000,
                 "main": {
-                    "temp": 294.3,
-                    "feels_like": 294.27,
-                    "temp_min": 294.3,
-                    "temp_max": 294.3,
+                    "temp": 21.15,
+                    "feels_like": 21.12,
+                    "temp_min": 21.15,
+                    "temp_max": 21.15,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1014,
@@ -2343,10 +2343,10 @@ const mockAPI5days = {
             {
                 "dt": 1749718800,
                 "main": {
-                    "temp": 293.35,
-                    "feels_like": 293.28,
-                    "temp_min": 293.35,
-                    "temp_max": 293.35,
+                    "temp": 20.2,
+                    "feels_like": 20.13,
+                    "temp_min": 20.2,
+                    "temp_max": 20.2,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -2379,10 +2379,10 @@ const mockAPI5days = {
             {
                 "dt": 1749729600,
                 "main": {
-                    "temp": 295.51,
-                    "feels_like": 295.42,
-                    "temp_min": 295.51,
-                    "temp_max": 295.51,
+                    "temp": 22.36,
+                    "feels_like": 22.27,
+                    "temp_min": 22.36,
+                    "temp_max": 22.36,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1017,
@@ -2415,10 +2415,10 @@ const mockAPI5days = {
             {
                 "dt": 1749740400,
                 "main": {
-                    "temp": 299.88,
-                    "feels_like": 300.43,
-                    "temp_min": 299.88,
-                    "temp_max": 299.88,
+                    "temp": 26.73,
+                    "feels_like": 27.28,
+                    "temp_min": 26.73,
+                    "temp_max": 26.73,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1017,
@@ -2451,10 +2451,10 @@ const mockAPI5days = {
             {
                 "dt": 1749751200,
                 "main": {
-                    "temp": 303.41,
-                    "feels_like": 303.27,
-                    "temp_min": 303.41,
-                    "temp_max": 303.41,
+                    "temp": 30.26,
+                    "feels_like": 30.12,
+                    "temp_min": 30.26,
+                    "temp_max": 30.26,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -2487,10 +2487,10 @@ const mockAPI5days = {
             {
                 "dt": 1749762000,
                 "main": {
-                    "temp": 303.27,
-                    "feels_like": 303.22,
-                    "temp_min": 303.27,
-                    "temp_max": 303.27,
+                    "temp": 30.12,
+                    "feels_like": 30.07,
+                    "temp_min": 30.12,
+                    "temp_max": 30.12,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1014,
@@ -2523,10 +2523,10 @@ const mockAPI5days = {
             {
                 "dt": 1749772800,
                 "main": {
-                    "temp": 300.95,
-                    "feels_like": 301.64,
-                    "temp_min": 300.95,
-                    "temp_max": 300.95,
+                    "temp": 27.8,
+                    "feels_like": 28.49,
+                    "temp_min": 27.8,
+                    "temp_max": 27.8,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -2559,10 +2559,10 @@ const mockAPI5days = {
             {
                 "dt": 1749783600,
                 "main": {
-                    "temp": 297.44,
-                    "feels_like": 297.67,
-                    "temp_min": 297.44,
-                    "temp_max": 297.44,
+                    "temp": 24.29,
+                    "feels_like": 24.52,
+                    "temp_min": 24.29,
+                    "temp_max": 24.29,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1016,
@@ -2598,10 +2598,10 @@ const mockAPI5days = {
             {
                 "dt": 1749794400,
                 "main": {
-                    "temp": 295.37,
-                    "feels_like": 295.61,
-                    "temp_min": 295.37,
-                    "temp_max": 295.37,
+                    "temp": 22.22,
+                    "feels_like": 22.46,
+                    "temp_min": 22.22,
+                    "temp_max": 22.22,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1017,
@@ -2637,10 +2637,10 @@ const mockAPI5days = {
             {
                 "dt": 1749805200,
                 "main": {
-                    "temp": 294.02,
-                    "feels_like": 294.23,
-                    "temp_min": 294.02,
-                    "temp_max": 294.02,
+                    "temp": 20.87,
+                    "feels_like": 21.08,
+                    "temp_min": 20.87,
+                    "temp_max": 20.87,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1018,
@@ -2673,10 +2673,10 @@ const mockAPI5days = {
             {
                 "dt": 1749816000,
                 "main": {
-                    "temp": 294.74,
-                    "feels_like": 294.42,
-                    "temp_min": 294.74,
-                    "temp_max": 294.74,
+                    "temp": 21.59,
+                    "feels_like": 21.27,
+                    "temp_min": 21.59,
+                    "temp_max": 21.59,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1019,
@@ -2709,10 +2709,10 @@ const mockAPI5days = {
             {
                 "dt": 1749826800,
                 "main": {
-                    "temp": 298.43,
-                    "feels_like": 298.16,
-                    "temp_min": 298.43,
-                    "temp_max": 298.43,
+                    "temp": 25.28,
+                    "feels_like": 25.01,
+                    "temp_min": 25.28,
+                    "temp_max": 25.28,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1019,
@@ -2745,10 +2745,10 @@ const mockAPI5days = {
             {
                 "dt": 1749837600,
                 "main": {
-                    "temp": 299.74,
-                    "feels_like": 299.74,
-                    "temp_min": 299.74,
-                    "temp_max": 299.74,
+                    "temp": 26.59,
+                    "feels_like": 26.59,
+                    "temp_min": 26.59,
+                    "temp_max": 26.59,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1018,
@@ -2781,10 +2781,10 @@ const mockAPI5days = {
             {
                 "dt": 1749848400,
                 "main": {
-                    "temp": 298.68,
-                    "feels_like": 298.44,
-                    "temp_min": 298.68,
-                    "temp_max": 298.68,
+                    "temp": 25.53,
+                    "feels_like": 25.29,
+                    "temp_min": 25.53,
+                    "temp_max": 25.53,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1018,
@@ -2817,10 +2817,10 @@ const mockAPI5days = {
             {
                 "dt": 1749859200,
                 "main": {
-                    "temp": 296.83,
-                    "feels_like": 296.61,
-                    "temp_min": 296.83,
-                    "temp_max": 296.83,
+                    "temp": 23.68,
+                    "feels_like": 23.46,
+                    "temp_min": 23.68,
+                    "temp_max": 23.68,
                     "pressure": 1021,
                     "sea_level": 1021,
                     "grnd_level": 1019,
@@ -2853,10 +2853,10 @@ const mockAPI5days = {
             {
                 "dt": 1749870000,
                 "main": {
-                    "temp": 294.95,
-                    "feels_like": 294.7,
-                    "temp_min": 294.95,
-                    "temp_max": 294.95,
+                    "temp": 21.8,
+                    "feels_like": 21.55,
+                    "temp_min": 21.8,
+                    "temp_max": 21.8,
                     "pressure": 1022,
                     "sea_level": 1022,
                     "grnd_level": 1020,
@@ -2889,10 +2889,10 @@ const mockAPI5days = {
             {
                 "dt": 1749880800,
                 "main": {
-                    "temp": 293.7,
-                    "feels_like": 293.38,
-                    "temp_min": 293.7,
-                    "temp_max": 293.7,
+                    "temp": 20.55,
+                    "feels_like": 20.23,
+                    "temp_min": 20.55,
+                    "temp_max": 20.55,
                     "pressure": 1022,
                     "sea_level": 1022,
                     "grnd_level": 1021,
@@ -2925,10 +2925,10 @@ const mockAPI5days = {
             {
                 "dt": 1749891600,
                 "main": {
-                    "temp": 292.38,
-                    "feels_like": 292.06,
-                    "temp_min": 292.38,
-                    "temp_max": 292.38,
+                    "temp": 19.23,
+                    "feels_like": 18.91,
+                    "temp_min": 19.23,
+                    "temp_max": 19.23,
                     "pressure": 1023,
                     "sea_level": 1023,
                     "grnd_level": 1021,
@@ -2981,15 +2981,15 @@ const mockAPI5days = {
             {
                 "dt": 1749470400,
                 "main": {
-                    "temp": 293.79,
-                    "feels_like": 294,
-                    "temp_min": 293.02,
-                    "temp_max": 293.79,
+                    "temp": 19.87,
+                    "feels_like": 20.11,
+                    "temp_min": 19.87,
+                    "temp_max": 19.87,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1011,
-                    "humidity": 80,
-                    "temp_kf": 0.77
+                    "humidity": 84,
+                    "temp_kf": 0
                 },
                 "weather": [
                     {
@@ -3020,15 +3020,15 @@ const mockAPI5days = {
             {
                 "dt": 1749481200,
                 "main": {
-                    "temp": 293.24,
-                    "feels_like": 293.45,
-                    "temp_min": 292.78,
-                    "temp_max": 293.24,
-                    "pressure": 1012,
-                    "sea_level": 1012,
+                    "temp": 19.79,
+                    "feels_like": 20.02,
+                    "temp_min": 19.63,
+                    "temp_max": 19.79,
+                    "pressure": 1013,
+                    "sea_level": 1013,
                     "grnd_level": 1010,
-                    "humidity": 82,
-                    "temp_kf": 0.46
+                    "humidity": 84,
+                    "temp_kf": 0.16
                 },
                 "weather": [
                     {
@@ -3059,15 +3059,15 @@ const mockAPI5days = {
             {
                 "dt": 1749492000,
                 "main": {
-                    "temp": 292.69,
-                    "feels_like": 292.92,
-                    "temp_min": 292.69,
-                    "temp_max": 292.69,
-                    "pressure": 1011,
-                    "sea_level": 1011,
+                    "temp": 19.65,
+                    "feels_like": 19.89,
+                    "temp_min": 19.54,
+                    "temp_max": 19.65,
+                    "pressure": 1012,
+                    "sea_level": 1012,
                     "grnd_level": 1010,
                     "humidity": 85,
-                    "temp_kf": 0
+                    "temp_kf": 0.11
                 },
                 "weather": [
                     {
@@ -3098,10 +3098,10 @@ const mockAPI5days = {
             {
                 "dt": 1749502800,
                 "main": {
-                    "temp": 292.96,
-                    "feels_like": 293.22,
-                    "temp_min": 292.96,
-                    "temp_max": 292.96,
+                    "temp": 19.81,
+                    "feels_like": 20.07,
+                    "temp_min": 19.81,
+                    "temp_max": 19.81,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1010,
@@ -3137,10 +3137,10 @@ const mockAPI5days = {
             {
                 "dt": 1749513600,
                 "main": {
-                    "temp": 293.11,
-                    "feels_like": 293.38,
-                    "temp_min": 293.11,
-                    "temp_max": 293.11,
+                    "temp": 19.96,
+                    "feels_like": 20.23,
+                    "temp_min": 19.96,
+                    "temp_max": 19.96,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1010,
@@ -3176,10 +3176,10 @@ const mockAPI5days = {
             {
                 "dt": 1749524400,
                 "main": {
-                    "temp": 294.07,
-                    "feels_like": 294.31,
-                    "temp_min": 294.07,
-                    "temp_max": 294.07,
+                    "temp": 20.92,
+                    "feels_like": 21.16,
+                    "temp_min": 20.92,
+                    "temp_max": 20.92,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1009,
@@ -3215,10 +3215,10 @@ const mockAPI5days = {
             {
                 "dt": 1749535200,
                 "main": {
-                    "temp": 293.81,
-                    "feels_like": 294.15,
-                    "temp_min": 293.81,
-                    "temp_max": 293.81,
+                    "temp": 20.66,
+                    "feels_like": 21,
+                    "temp_min": 20.66,
+                    "temp_max": 20.66,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1008,
@@ -3254,10 +3254,10 @@ const mockAPI5days = {
             {
                 "dt": 1749546000,
                 "main": {
-                    "temp": 293.76,
-                    "feels_like": 294.17,
-                    "temp_min": 293.76,
-                    "temp_max": 293.76,
+                    "temp": 20.61,
+                    "feels_like": 21.02,
+                    "temp_min": 20.61,
+                    "temp_max": 20.61,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1008,
@@ -3293,10 +3293,10 @@ const mockAPI5days = {
             {
                 "dt": 1749556800,
                 "main": {
-                    "temp": 294.31,
-                    "feels_like": 294.75,
-                    "temp_min": 294.31,
-                    "temp_max": 294.31,
+                    "temp": 21.16,
+                    "feels_like": 21.6,
+                    "temp_min": 21.16,
+                    "temp_max": 21.16,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1008,
@@ -3332,10 +3332,10 @@ const mockAPI5days = {
             {
                 "dt": 1749567600,
                 "main": {
-                    "temp": 294.5,
-                    "feels_like": 294.94,
-                    "temp_min": 294.5,
-                    "temp_max": 294.5,
+                    "temp": 21.35,
+                    "feels_like": 21.79,
+                    "temp_min": 21.35,
+                    "temp_max": 21.35,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1007,
@@ -3368,10 +3368,10 @@ const mockAPI5days = {
             {
                 "dt": 1749578400,
                 "main": {
-                    "temp": 295.25,
-                    "feels_like": 295.76,
-                    "temp_min": 295.25,
-                    "temp_max": 295.25,
+                    "temp": 22.1,
+                    "feels_like": 22.61,
+                    "temp_min": 22.1,
+                    "temp_max": 22.1,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1005,
@@ -3404,10 +3404,10 @@ const mockAPI5days = {
             {
                 "dt": 1749589200,
                 "main": {
-                    "temp": 295.78,
-                    "feels_like": 296.32,
-                    "temp_min": 295.78,
-                    "temp_max": 295.78,
+                    "temp": 22.63,
+                    "feels_like": 23.17,
+                    "temp_min": 22.63,
+                    "temp_max": 22.63,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1005,
@@ -3440,10 +3440,10 @@ const mockAPI5days = {
             {
                 "dt": 1749600000,
                 "main": {
-                    "temp": 297.83,
-                    "feels_like": 298.34,
-                    "temp_min": 297.83,
-                    "temp_max": 297.83,
+                    "temp": 24.68,
+                    "feels_like": 25.19,
+                    "temp_min": 24.68,
+                    "temp_max": 24.68,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1005,
@@ -3476,10 +3476,10 @@ const mockAPI5days = {
             {
                 "dt": 1749610800,
                 "main": {
-                    "temp": 296.96,
-                    "feels_like": 297.38,
-                    "temp_min": 296.96,
-                    "temp_max": 296.96,
+                    "temp": 23.81,
+                    "feels_like": 24.23,
+                    "temp_min": 23.81,
+                    "temp_max": 23.81,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1006,
@@ -3512,10 +3512,10 @@ const mockAPI5days = {
             {
                 "dt": 1749621600,
                 "main": {
-                    "temp": 295.67,
-                    "feels_like": 296.12,
-                    "temp_min": 295.67,
-                    "temp_max": 295.67,
+                    "temp": 22.52,
+                    "feels_like": 22.97,
+                    "temp_min": 22.52,
+                    "temp_max": 22.52,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1006,
@@ -3551,10 +3551,10 @@ const mockAPI5days = {
             {
                 "dt": 1749632400,
                 "main": {
-                    "temp": 295.16,
-                    "feels_like": 295.69,
-                    "temp_min": 295.16,
-                    "temp_max": 295.16,
+                    "temp": 22.01,
+                    "feels_like": 22.54,
+                    "temp_min": 22.01,
+                    "temp_max": 22.01,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1007,
@@ -3590,10 +3590,10 @@ const mockAPI5days = {
             {
                 "dt": 1749643200,
                 "main": {
-                    "temp": 295.11,
-                    "feels_like": 295.63,
-                    "temp_min": 295.11,
-                    "temp_max": 295.11,
+                    "temp": 21.96,
+                    "feels_like": 22.48,
+                    "temp_min": 21.96,
+                    "temp_max": 21.96,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1008,
@@ -3629,10 +3629,10 @@ const mockAPI5days = {
             {
                 "dt": 1749654000,
                 "main": {
-                    "temp": 294.8,
-                    "feels_like": 295.34,
-                    "temp_min": 294.8,
-                    "temp_max": 294.8,
+                    "temp": 21.65,
+                    "feels_like": 22.19,
+                    "temp_min": 21.65,
+                    "temp_max": 21.65,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1008,
@@ -3665,10 +3665,10 @@ const mockAPI5days = {
             {
                 "dt": 1749664800,
                 "main": {
-                    "temp": 294.59,
-                    "feels_like": 295.14,
-                    "temp_min": 294.59,
-                    "temp_max": 294.59,
+                    "temp": 21.44,
+                    "feels_like": 21.99,
+                    "temp_min": 21.44,
+                    "temp_max": 21.44,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1008,
@@ -3701,10 +3701,10 @@ const mockAPI5days = {
             {
                 "dt": 1749675600,
                 "main": {
-                    "temp": 294.81,
-                    "feels_like": 295.02,
-                    "temp_min": 294.81,
-                    "temp_max": 294.81,
+                    "temp": 21.66,
+                    "feels_like": 21.87,
+                    "temp_min": 21.66,
+                    "temp_max": 21.66,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1010,
@@ -3737,10 +3737,10 @@ const mockAPI5days = {
             {
                 "dt": 1749686400,
                 "main": {
-                    "temp": 297.36,
-                    "feels_like": 297.43,
-                    "temp_min": 297.36,
-                    "temp_max": 297.36,
+                    "temp": 24.21,
+                    "feels_like": 24.28,
+                    "temp_min": 24.21,
+                    "temp_max": 24.21,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1011,
@@ -3773,10 +3773,10 @@ const mockAPI5days = {
             {
                 "dt": 1749697200,
                 "main": {
-                    "temp": 300.39,
-                    "feels_like": 300.54,
-                    "temp_min": 300.39,
-                    "temp_max": 300.39,
+                    "temp": 27.24,
+                    "feels_like": 27.39,
+                    "temp_min": 27.24,
+                    "temp_max": 27.24,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1012,
@@ -3809,10 +3809,10 @@ const mockAPI5days = {
             {
                 "dt": 1749708000,
                 "main": {
-                    "temp": 301.24,
-                    "feels_like": 301.35,
-                    "temp_min": 301.24,
-                    "temp_max": 301.24,
+                    "temp": 28.09,
+                    "feels_like": 28.2,
+                    "temp_min": 28.09,
+                    "temp_max": 28.09,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1012,
@@ -3845,10 +3845,10 @@ const mockAPI5days = {
             {
                 "dt": 1749718800,
                 "main": {
-                    "temp": 298.76,
-                    "feels_like": 298.79,
-                    "temp_min": 298.76,
-                    "temp_max": 298.76,
+                    "temp": 25.61,
+                    "feels_like": 25.64,
+                    "temp_min": 25.61,
+                    "temp_max": 25.61,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1013,
@@ -3881,10 +3881,10 @@ const mockAPI5days = {
             {
                 "dt": 1749729600,
                 "main": {
-                    "temp": 296.35,
-                    "feels_like": 296.29,
-                    "temp_min": 296.35,
-                    "temp_max": 296.35,
+                    "temp": 23.2,
+                    "feels_like": 23.14,
+                    "temp_min": 23.2,
+                    "temp_max": 23.2,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -3917,10 +3917,10 @@ const mockAPI5days = {
             {
                 "dt": 1749740400,
                 "main": {
-                    "temp": 295.72,
-                    "feels_like": 295.63,
-                    "temp_min": 295.72,
-                    "temp_max": 295.72,
+                    "temp": 22.57,
+                    "feels_like": 22.48,
+                    "temp_min": 22.57,
+                    "temp_max": 22.57,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1014,
@@ -3953,10 +3953,10 @@ const mockAPI5days = {
             {
                 "dt": 1749751200,
                 "main": {
-                    "temp": 295.24,
-                    "feels_like": 295.33,
-                    "temp_min": 295.24,
-                    "temp_max": 295.24,
+                    "temp": 22.09,
+                    "feels_like": 22.18,
+                    "temp_min": 22.09,
+                    "temp_max": 22.09,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -3989,10 +3989,10 @@ const mockAPI5days = {
             {
                 "dt": 1749762000,
                 "main": {
-                    "temp": 295.16,
-                    "feels_like": 295.37,
-                    "temp_min": 295.16,
-                    "temp_max": 295.16,
+                    "temp": 22.01,
+                    "feels_like": 22.22,
+                    "temp_min": 22.01,
+                    "temp_max": 22.01,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1016,
@@ -4025,10 +4025,10 @@ const mockAPI5days = {
             {
                 "dt": 1749772800,
                 "main": {
-                    "temp": 296.05,
-                    "feels_like": 296.22,
-                    "temp_min": 296.05,
-                    "temp_max": 296.05,
+                    "temp": 22.9,
+                    "feels_like": 23.07,
+                    "temp_min": 22.9,
+                    "temp_max": 22.9,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1016,
@@ -4061,10 +4061,10 @@ const mockAPI5days = {
             {
                 "dt": 1749783600,
                 "main": {
-                    "temp": 297.71,
-                    "feels_like": 297.76,
-                    "temp_min": 297.71,
-                    "temp_max": 297.71,
+                    "temp": 24.56,
+                    "feels_like": 24.61,
+                    "temp_min": 24.56,
+                    "temp_max": 24.56,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -4097,10 +4097,10 @@ const mockAPI5days = {
             {
                 "dt": 1749794400,
                 "main": {
-                    "temp": 298.43,
-                    "feels_like": 298.48,
-                    "temp_min": 298.43,
-                    "temp_max": 298.43,
+                    "temp": 25.28,
+                    "feels_like": 25.33,
+                    "temp_min": 25.28,
+                    "temp_max": 25.28,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -4133,10 +4133,10 @@ const mockAPI5days = {
             {
                 "dt": 1749805200,
                 "main": {
-                    "temp": 297.33,
-                    "feels_like": 297.32,
-                    "temp_min": 297.33,
-                    "temp_max": 297.33,
+                    "temp": 24.18,
+                    "feels_like": 24.17,
+                    "temp_min": 24.18,
+                    "temp_max": 24.18,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -4169,10 +4169,10 @@ const mockAPI5days = {
             {
                 "dt": 1749816000,
                 "main": {
-                    "temp": 295.73,
-                    "feels_like": 295.77,
-                    "temp_min": 295.73,
-                    "temp_max": 295.73,
+                    "temp": 22.58,
+                    "feels_like": 22.62,
+                    "temp_min": 22.58,
+                    "temp_max": 22.58,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1016,
@@ -4205,10 +4205,10 @@ const mockAPI5days = {
             {
                 "dt": 1749826800,
                 "main": {
-                    "temp": 294.81,
-                    "feels_like": 294.96,
-                    "temp_min": 294.81,
-                    "temp_max": 294.81,
+                    "temp": 21.66,
+                    "feels_like": 21.81,
+                    "temp_min": 21.66,
+                    "temp_max": 21.66,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1016,
@@ -4241,10 +4241,10 @@ const mockAPI5days = {
             {
                 "dt": 1749837600,
                 "main": {
-                    "temp": 294.22,
-                    "feels_like": 294.45,
-                    "temp_min": 294.22,
-                    "temp_max": 294.22,
+                    "temp": 21.07,
+                    "feels_like": 21.3,
+                    "temp_min": 21.07,
+                    "temp_max": 21.07,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1015,
@@ -4277,10 +4277,10 @@ const mockAPI5days = {
             {
                 "dt": 1749848400,
                 "main": {
-                    "temp": 294.56,
-                    "feels_like": 294.77,
-                    "temp_min": 294.56,
-                    "temp_max": 294.56,
+                    "temp": 21.41,
+                    "feels_like": 21.62,
+                    "temp_min": 21.41,
+                    "temp_max": 21.41,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1016,
@@ -4313,10 +4313,10 @@ const mockAPI5days = {
             {
                 "dt": 1749859200,
                 "main": {
-                    "temp": 296.73,
-                    "feels_like": 296.79,
-                    "temp_min": 296.73,
-                    "temp_max": 296.73,
+                    "temp": 23.58,
+                    "feels_like": 23.64,
+                    "temp_min": 23.58,
+                    "temp_max": 23.58,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1015,
@@ -4349,10 +4349,10 @@ const mockAPI5days = {
             {
                 "dt": 1749870000,
                 "main": {
-                    "temp": 299.04,
-                    "feels_like": 299.04,
-                    "temp_min": 299.04,
-                    "temp_max": 299.04,
+                    "temp": 25.89,
+                    "feels_like": 25.89,
+                    "temp_min": 25.89,
+                    "temp_max": 25.89,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1013,
@@ -4385,10 +4385,10 @@ const mockAPI5days = {
             {
                 "dt": 1749880800,
                 "main": {
-                    "temp": 298.82,
-                    "feels_like": 298.72,
-                    "temp_min": 298.82,
-                    "temp_max": 298.82,
+                    "temp": 25.67,
+                    "feels_like": 25.57,
+                    "temp_min": 25.67,
+                    "temp_max": 25.67,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1012,
@@ -4421,10 +4421,10 @@ const mockAPI5days = {
             {
                 "dt": 1749891600,
                 "main": {
-                    "temp": 296.57,
-                    "feels_like": 296.66,
-                    "temp_min": 296.57,
-                    "temp_max": 296.57,
+                    "temp": 23.42,
+                    "feels_like": 23.51,
+                    "temp_min": 23.42,
+                    "temp_max": 23.42,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1012,
@@ -4477,15 +4477,15 @@ const mockAPI5days = {
             {
                 "dt": 1749470400,
                 "main": {
-                    "temp": 284.77,
-                    "feels_like": 283.79,
-                    "temp_min": 284.77,
-                    "temp_max": 285.18,
-                    "pressure": 1001,
-                    "sea_level": 1001,
+                    "temp": 11.51,
+                    "feels_like": 10.57,
+                    "temp_min": 11.51,
+                    "temp_max": 11.51,
+                    "pressure": 1003,
+                    "sea_level": 1003,
                     "grnd_level": 997,
-                    "humidity": 69,
-                    "temp_kf": -0.41
+                    "humidity": 71,
+                    "temp_kf": 0
                 },
                 "weather": [
                     {
@@ -4496,7 +4496,7 @@ const mockAPI5days = {
                     }
                 ],
                 "clouds": {
-                    "all": 33
+                    "all": 30
                 },
                 "wind": {
                     "speed": 7.52,
@@ -4513,15 +4513,15 @@ const mockAPI5days = {
             {
                 "dt": 1749481200,
                 "main": {
-                    "temp": 285.28,
-                    "feels_like": 284.25,
-                    "temp_min": 285.28,
-                    "temp_max": 285.64,
+                    "temp": 11.74,
+                    "feels_like": 10.77,
+                    "temp_min": 11.74,
+                    "temp_max": 12.2,
                     "pressure": 1003,
                     "sea_level": 1003,
                     "grnd_level": 998,
-                    "humidity": 65,
-                    "temp_kf": -0.36
+                    "humidity": 69,
+                    "temp_kf": -0.46
                 },
                 "weather": [
                     {
@@ -4532,7 +4532,7 @@ const mockAPI5days = {
                     }
                 ],
                 "clouds": {
-                    "all": 31
+                    "all": 30
                 },
                 "wind": {
                     "speed": 6.53,
@@ -4549,26 +4549,26 @@ const mockAPI5days = {
             {
                 "dt": 1749492000,
                 "main": {
-                    "temp": 284.82,
-                    "feels_like": 283.77,
-                    "temp_min": 284.82,
-                    "temp_max": 284.82,
-                    "pressure": 1005,
-                    "sea_level": 1005,
+                    "temp": 11.62,
+                    "feels_like": 10.59,
+                    "temp_min": 11.62,
+                    "temp_max": 11.67,
+                    "pressure": 1004,
+                    "sea_level": 1004,
                     "grnd_level": 999,
-                    "humidity": 66,
-                    "temp_kf": 0
+                    "humidity": 67,
+                    "temp_kf": -0.05
                 },
                 "weather": [
                     {
-                        "id": 801,
+                        "id": 802,
                         "main": "Clouds",
-                        "description": "few clouds",
-                        "icon": "02n"
+                        "description": "scattered clouds",
+                        "icon": "03n"
                     }
                 ],
                 "clouds": {
-                    "all": 23
+                    "all": 25
                 },
                 "wind": {
                     "speed": 6.42,
@@ -4585,10 +4585,10 @@ const mockAPI5days = {
             {
                 "dt": 1749502800,
                 "main": {
-                    "temp": 284.08,
-                    "feels_like": 283.11,
-                    "temp_min": 284.08,
-                    "temp_max": 284.08,
+                    "temp": 10.93,
+                    "feels_like": 9.96,
+                    "temp_min": 10.93,
+                    "temp_max": 10.93,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1001,
@@ -4621,10 +4621,10 @@ const mockAPI5days = {
             {
                 "dt": 1749513600,
                 "main": {
-                    "temp": 288.87,
-                    "feels_like": 287.93,
-                    "temp_min": 288.87,
-                    "temp_max": 288.87,
+                    "temp": 15.72,
+                    "feels_like": 14.78,
+                    "temp_min": 15.72,
+                    "temp_max": 15.72,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1003,
@@ -4657,10 +4657,10 @@ const mockAPI5days = {
             {
                 "dt": 1749524400,
                 "main": {
-                    "temp": 289.96,
-                    "feels_like": 288.87,
-                    "temp_min": 289.96,
-                    "temp_max": 289.96,
+                    "temp": 16.81,
+                    "feels_like": 15.72,
+                    "temp_min": 16.81,
+                    "temp_max": 16.81,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1001,
@@ -4693,10 +4693,10 @@ const mockAPI5days = {
             {
                 "dt": 1749535200,
                 "main": {
-                    "temp": 288.47,
-                    "feels_like": 287.39,
-                    "temp_min": 288.47,
-                    "temp_max": 288.47,
+                    "temp": 15.32,
+                    "feels_like": 14.24,
+                    "temp_min": 15.32,
+                    "temp_max": 15.32,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1002,
@@ -4729,10 +4729,10 @@ const mockAPI5days = {
             {
                 "dt": 1749546000,
                 "main": {
-                    "temp": 285.1,
-                    "feels_like": 284,
-                    "temp_min": 285.1,
-                    "temp_max": 285.1,
+                    "temp": 11.95,
+                    "feels_like": 10.85,
+                    "temp_min": 11.95,
+                    "temp_max": 11.95,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1005,
@@ -4765,10 +4765,10 @@ const mockAPI5days = {
             {
                 "dt": 1749556800,
                 "main": {
-                    "temp": 284.19,
-                    "feels_like": 283.02,
-                    "temp_min": 284.19,
-                    "temp_max": 284.19,
+                    "temp": 11.04,
+                    "feels_like": 9.87,
+                    "temp_min": 11.04,
+                    "temp_max": 11.04,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1005,
@@ -4801,10 +4801,10 @@ const mockAPI5days = {
             {
                 "dt": 1749567600,
                 "main": {
-                    "temp": 283.57,
-                    "feels_like": 282.39,
-                    "temp_min": 283.57,
-                    "temp_max": 283.57,
+                    "temp": 10.42,
+                    "feels_like": 9.24,
+                    "temp_min": 10.42,
+                    "temp_max": 10.42,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -4837,10 +4837,10 @@ const mockAPI5days = {
             {
                 "dt": 1749578400,
                 "main": {
-                    "temp": 282.54,
-                    "feels_like": 280.34,
-                    "temp_min": 282.54,
-                    "temp_max": 282.54,
+                    "temp": 9.39,
+                    "feels_like": 7.19,
+                    "temp_min": 9.39,
+                    "temp_max": 9.39,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -4873,10 +4873,10 @@ const mockAPI5days = {
             {
                 "dt": 1749589200,
                 "main": {
-                    "temp": 282.17,
-                    "feels_like": 279.67,
-                    "temp_min": 282.17,
-                    "temp_max": 282.17,
+                    "temp": 9.02,
+                    "feels_like": 6.52,
+                    "temp_min": 9.02,
+                    "temp_max": 9.02,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1007,
@@ -4909,10 +4909,10 @@ const mockAPI5days = {
             {
                 "dt": 1749600000,
                 "main": {
-                    "temp": 286.38,
-                    "feels_like": 285.22,
-                    "temp_min": 286.38,
-                    "temp_max": 286.38,
+                    "temp": 13.23,
+                    "feels_like": 12.07,
+                    "temp_min": 13.23,
+                    "temp_max": 13.23,
                     "pressure": 1013,
                     "sea_level": 1013,
                     "grnd_level": 1008,
@@ -4945,10 +4945,10 @@ const mockAPI5days = {
             {
                 "dt": 1749610800,
                 "main": {
-                    "temp": 289.85,
-                    "feels_like": 288.67,
-                    "temp_min": 289.85,
-                    "temp_max": 289.85,
+                    "temp": 16.7,
+                    "feels_like": 15.52,
+                    "temp_min": 16.7,
+                    "temp_max": 16.7,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1006,
@@ -4981,10 +4981,10 @@ const mockAPI5days = {
             {
                 "dt": 1749621600,
                 "main": {
-                    "temp": 288.91,
-                    "feels_like": 287.69,
-                    "temp_min": 288.91,
-                    "temp_max": 288.91,
+                    "temp": 15.76,
+                    "feels_like": 14.54,
+                    "temp_min": 15.76,
+                    "temp_max": 15.76,
                     "pressure": 1012,
                     "sea_level": 1012,
                     "grnd_level": 1007,
@@ -5017,10 +5017,10 @@ const mockAPI5days = {
             {
                 "dt": 1749632400,
                 "main": {
-                    "temp": 285.81,
-                    "feels_like": 284.62,
-                    "temp_min": 285.81,
-                    "temp_max": 285.81,
+                    "temp": 12.66,
+                    "feels_like": 11.47,
+                    "temp_min": 12.66,
+                    "temp_max": 12.66,
                     "pressure": 1014,
                     "sea_level": 1014,
                     "grnd_level": 1009,
@@ -5053,10 +5053,10 @@ const mockAPI5days = {
             {
                 "dt": 1749643200,
                 "main": {
-                    "temp": 283.93,
-                    "feels_like": 282.76,
-                    "temp_min": 283.93,
-                    "temp_max": 283.93,
+                    "temp": 10.78,
+                    "feels_like": 9.61,
+                    "temp_min": 10.78,
+                    "temp_max": 10.78,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1010,
@@ -5089,10 +5089,10 @@ const mockAPI5days = {
             {
                 "dt": 1749654000,
                 "main": {
-                    "temp": 282.89,
-                    "feels_like": 280.78,
-                    "temp_min": 282.89,
-                    "temp_max": 282.89,
+                    "temp": 9.74,
+                    "feels_like": 7.63,
+                    "temp_min": 9.74,
+                    "temp_max": 9.74,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1010,
@@ -5125,10 +5125,10 @@ const mockAPI5days = {
             {
                 "dt": 1749664800,
                 "main": {
-                    "temp": 281.96,
-                    "feels_like": 279.66,
-                    "temp_min": 281.96,
-                    "temp_max": 281.96,
+                    "temp": 8.81,
+                    "feels_like": 6.51,
+                    "temp_min": 8.81,
+                    "temp_max": 8.81,
                     "pressure": 1015,
                     "sea_level": 1015,
                     "grnd_level": 1010,
@@ -5161,10 +5161,10 @@ const mockAPI5days = {
             {
                 "dt": 1749675600,
                 "main": {
-                    "temp": 281.42,
-                    "feels_like": 278.74,
-                    "temp_min": 281.42,
-                    "temp_max": 281.42,
+                    "temp": 8.27,
+                    "feels_like": 5.59,
+                    "temp_min": 8.27,
+                    "temp_max": 8.27,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1011,
@@ -5197,10 +5197,10 @@ const mockAPI5days = {
             {
                 "dt": 1749686400,
                 "main": {
-                    "temp": 285.05,
-                    "feels_like": 283.78,
-                    "temp_min": 285.05,
-                    "temp_max": 285.05,
+                    "temp": 11.9,
+                    "feels_like": 10.63,
+                    "temp_min": 11.9,
+                    "temp_max": 11.9,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -5233,10 +5233,10 @@ const mockAPI5days = {
             {
                 "dt": 1749697200,
                 "main": {
-                    "temp": 288.48,
-                    "feels_like": 287.19,
-                    "temp_min": 288.48,
-                    "temp_max": 288.48,
+                    "temp": 15.33,
+                    "feels_like": 14.04,
+                    "temp_min": 15.33,
+                    "temp_max": 15.33,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1010,
@@ -5269,10 +5269,10 @@ const mockAPI5days = {
             {
                 "dt": 1749708000,
                 "main": {
-                    "temp": 288.02,
-                    "feels_like": 286.84,
-                    "temp_min": 288.02,
-                    "temp_max": 288.02,
+                    "temp": 14.87,
+                    "feels_like": 13.69,
+                    "temp_min": 14.87,
+                    "temp_max": 14.87,
                     "pressure": 1016,
                     "sea_level": 1016,
                     "grnd_level": 1010,
@@ -5305,10 +5305,10 @@ const mockAPI5days = {
             {
                 "dt": 1749718800,
                 "main": {
-                    "temp": 286.15,
-                    "feels_like": 284.99,
-                    "temp_min": 286.15,
-                    "temp_max": 286.15,
+                    "temp": 13,
+                    "feels_like": 11.84,
+                    "temp_min": 13,
+                    "temp_max": 13,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1012,
@@ -5341,10 +5341,10 @@ const mockAPI5days = {
             {
                 "dt": 1749729600,
                 "main": {
-                    "temp": 284.36,
-                    "feels_like": 283.08,
-                    "temp_min": 284.36,
-                    "temp_max": 284.36,
+                    "temp": 11.21,
+                    "feels_like": 9.93,
+                    "temp_min": 11.21,
+                    "temp_max": 11.21,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1013,
@@ -5377,10 +5377,10 @@ const mockAPI5days = {
             {
                 "dt": 1749740400,
                 "main": {
-                    "temp": 282.83,
-                    "feels_like": 280.81,
-                    "temp_min": 282.83,
-                    "temp_max": 282.83,
+                    "temp": 9.68,
+                    "feels_like": 7.66,
+                    "temp_min": 9.68,
+                    "temp_max": 9.68,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1013,
@@ -5413,10 +5413,10 @@ const mockAPI5days = {
             {
                 "dt": 1749751200,
                 "main": {
-                    "temp": 281.92,
-                    "feels_like": 279.38,
-                    "temp_min": 281.92,
-                    "temp_max": 281.92,
+                    "temp": 8.77,
+                    "feels_like": 6.23,
+                    "temp_min": 8.77,
+                    "temp_max": 8.77,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -5449,10 +5449,10 @@ const mockAPI5days = {
             {
                 "dt": 1749762000,
                 "main": {
-                    "temp": 281.06,
-                    "feels_like": 278.43,
-                    "temp_min": 281.06,
-                    "temp_max": 281.06,
+                    "temp": 7.91,
+                    "feels_like": 5.28,
+                    "temp_min": 7.91,
+                    "temp_max": 7.91,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -5485,10 +5485,10 @@ const mockAPI5days = {
             {
                 "dt": 1749772800,
                 "main": {
-                    "temp": 285.18,
-                    "feels_like": 283.85,
-                    "temp_min": 285.18,
-                    "temp_max": 285.18,
+                    "temp": 12.03,
+                    "feels_like": 10.7,
+                    "temp_min": 12.03,
+                    "temp_max": 12.03,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -5521,10 +5521,10 @@ const mockAPI5days = {
             {
                 "dt": 1749783600,
                 "main": {
-                    "temp": 288.25,
-                    "feels_like": 287.1,
-                    "temp_min": 288.25,
-                    "temp_max": 288.25,
+                    "temp": 15.1,
+                    "feels_like": 13.95,
+                    "temp_min": 15.1,
+                    "temp_max": 15.1,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -5557,10 +5557,10 @@ const mockAPI5days = {
             {
                 "dt": 1749794400,
                 "main": {
-                    "temp": 287.33,
-                    "feels_like": 286.4,
-                    "temp_min": 287.33,
-                    "temp_max": 287.33,
+                    "temp": 14.18,
+                    "feels_like": 13.25,
+                    "temp_min": 14.18,
+                    "temp_max": 14.18,
                     "pressure": 1017,
                     "sea_level": 1017,
                     "grnd_level": 1012,
@@ -5596,10 +5596,10 @@ const mockAPI5days = {
             {
                 "dt": 1749805200,
                 "main": {
-                    "temp": 285.22,
-                    "feels_like": 284.47,
-                    "temp_min": 285.22,
-                    "temp_max": 285.22,
+                    "temp": 12.07,
+                    "feels_like": 11.32,
+                    "temp_min": 12.07,
+                    "temp_max": 12.07,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1012,
@@ -5635,10 +5635,10 @@ const mockAPI5days = {
             {
                 "dt": 1749816000,
                 "main": {
-                    "temp": 284.08,
-                    "feels_like": 283.03,
-                    "temp_min": 284.08,
-                    "temp_max": 284.08,
+                    "temp": 10.93,
+                    "feels_like": 9.88,
+                    "temp_min": 10.93,
+                    "temp_max": 10.93,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1013,
@@ -5671,10 +5671,10 @@ const mockAPI5days = {
             {
                 "dt": 1749826800,
                 "main": {
-                    "temp": 283.29,
-                    "feels_like": 282.21,
-                    "temp_min": 283.29,
-                    "temp_max": 283.29,
+                    "temp": 10.14,
+                    "feels_like": 9.06,
+                    "temp_min": 10.14,
+                    "temp_max": 10.14,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1012,
@@ -5707,10 +5707,10 @@ const mockAPI5days = {
             {
                 "dt": 1749837600,
                 "main": {
-                    "temp": 282.57,
-                    "feels_like": 280.25,
-                    "temp_min": 282.57,
-                    "temp_max": 282.57,
+                    "temp": 9.42,
+                    "feels_like": 7.1,
+                    "temp_min": 9.42,
+                    "temp_max": 9.42,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -5743,10 +5743,10 @@ const mockAPI5days = {
             {
                 "dt": 1749848400,
                 "main": {
-                    "temp": 283.93,
-                    "feels_like": 282.97,
-                    "temp_min": 283.93,
-                    "temp_max": 283.93,
+                    "temp": 10.78,
+                    "feels_like": 9.82,
+                    "temp_min": 10.78,
+                    "temp_max": 10.78,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -5779,10 +5779,10 @@ const mockAPI5days = {
             {
                 "dt": 1749859200,
                 "main": {
-                    "temp": 286.6,
-                    "feels_like": 285.88,
-                    "temp_min": 286.6,
-                    "temp_max": 286.6,
+                    "temp": 13.45,
+                    "feels_like": 12.73,
+                    "temp_min": 13.45,
+                    "temp_max": 13.45,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1014,
@@ -5815,10 +5815,10 @@ const mockAPI5days = {
             {
                 "dt": 1749870000,
                 "main": {
-                    "temp": 288.46,
-                    "feels_like": 287.85,
-                    "temp_min": 288.46,
-                    "temp_max": 288.46,
+                    "temp": 15.31,
+                    "feels_like": 14.7,
+                    "temp_min": 15.31,
+                    "temp_max": 15.31,
                     "pressure": 1018,
                     "sea_level": 1018,
                     "grnd_level": 1013,
@@ -5854,10 +5854,10 @@ const mockAPI5days = {
             {
                 "dt": 1749880800,
                 "main": {
-                    "temp": 288.12,
-                    "feels_like": 287.55,
-                    "temp_min": 288.12,
-                    "temp_max": 288.12,
+                    "temp": 14.97,
+                    "feels_like": 14.4,
+                    "temp_min": 14.97,
+                    "temp_max": 14.97,
                     "pressure": 1019,
                     "sea_level": 1019,
                     "grnd_level": 1013,
@@ -5893,10 +5893,10 @@ const mockAPI5days = {
             {
                 "dt": 1749891600,
                 "main": {
-                    "temp": 286.81,
-                    "feels_like": 286.22,
-                    "temp_min": 286.81,
-                    "temp_max": 286.81,
+                    "temp": 13.66,
+                    "feels_like": 13.07,
+                    "temp_min": 13.66,
+                    "temp_max": 13.66,
                     "pressure": 1020,
                     "sea_level": 1020,
                     "grnd_level": 1014,
@@ -5952,15 +5952,15 @@ const mockAPI5days = {
             {
                 "dt": 1749470400,
                 "main": {
-                    "temp": 303.92,
-                    "feels_like": 303.38,
-                    "temp_min": 303.92,
-                    "temp_max": 306.02,
+                    "temp": 32.96,
+                    "feels_like": 31.23,
+                    "temp_min": 32.96,
+                    "temp_max": 32.96,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
-                    "humidity": 37,
-                    "temp_kf": -2.1
+                    "humidity": 24,
+                    "temp_kf": 0
                 },
                 "weather": [
                     {
@@ -5988,15 +5988,15 @@ const mockAPI5days = {
             {
                 "dt": 1749481200,
                 "main": {
-                    "temp": 307.92,
-                    "feels_like": 306.46,
-                    "temp_min": 307.92,
-                    "temp_max": 310.44,
+                    "temp": 34.31,
+                    "feels_like": 32.39,
+                    "temp_min": 34.31,
+                    "temp_max": 37.01,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1001,
-                    "humidity": 24,
-                    "temp_kf": -2.52
+                    "humidity": 21,
+                    "temp_kf": -2.7
                 },
                 "weather": [
                     {
@@ -6024,15 +6024,15 @@ const mockAPI5days = {
             {
                 "dt": 1749492000,
                 "main": {
-                    "temp": 305.16,
-                    "feels_like": 303.86,
-                    "temp_min": 305.16,
-                    "temp_max": 305.16,
+                    "temp": 32.33,
+                    "feels_like": 30.96,
+                    "temp_min": 32.01,
+                    "temp_max": 32.33,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
-                    "humidity": 29,
-                    "temp_kf": 0
+                    "humidity": 28,
+                    "temp_kf": 0.32
                 },
                 "weather": [
                     {
@@ -6060,10 +6060,10 @@ const mockAPI5days = {
             {
                 "dt": 1749502800,
                 "main": {
-                    "temp": 301.13,
-                    "feels_like": 301.16,
-                    "temp_min": 301.13,
-                    "temp_max": 301.13,
+                    "temp": 27.98,
+                    "feels_like": 28.01,
+                    "temp_min": 27.98,
+                    "temp_max": 27.98,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -6096,10 +6096,10 @@ const mockAPI5days = {
             {
                 "dt": 1749513600,
                 "main": {
-                    "temp": 297.98,
-                    "feels_like": 297.98,
-                    "temp_min": 297.98,
-                    "temp_max": 297.98,
+                    "temp": 24.83,
+                    "feels_like": 24.83,
+                    "temp_min": 24.83,
+                    "temp_max": 24.83,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -6132,10 +6132,10 @@ const mockAPI5days = {
             {
                 "dt": 1749524400,
                 "main": {
-                    "temp": 296.69,
-                    "feels_like": 296.74,
-                    "temp_min": 296.69,
-                    "temp_max": 296.69,
+                    "temp": 23.54,
+                    "feels_like": 23.59,
+                    "temp_min": 23.54,
+                    "temp_max": 23.54,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -6168,10 +6168,10 @@ const mockAPI5days = {
             {
                 "dt": 1749535200,
                 "main": {
-                    "temp": 299.59,
-                    "feels_like": 299.59,
-                    "temp_min": 299.59,
-                    "temp_max": 299.59,
+                    "temp": 26.44,
+                    "feels_like": 26.44,
+                    "temp_min": 26.44,
+                    "temp_max": 26.44,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1005,
@@ -6204,10 +6204,10 @@ const mockAPI5days = {
             {
                 "dt": 1749546000,
                 "main": {
-                    "temp": 305.91,
-                    "feels_like": 304.37,
-                    "temp_min": 305.91,
-                    "temp_max": 305.91,
+                    "temp": 32.76,
+                    "feels_like": 31.22,
+                    "temp_min": 32.76,
+                    "temp_max": 32.76,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1004,
@@ -6240,10 +6240,10 @@ const mockAPI5days = {
             {
                 "dt": 1749556800,
                 "main": {
-                    "temp": 310.66,
-                    "feels_like": 308.19,
-                    "temp_min": 310.66,
-                    "temp_max": 310.66,
+                    "temp": 37.51,
+                    "feels_like": 35.04,
+                    "temp_min": 37.51,
+                    "temp_max": 37.51,
                     "pressure": 1006,
                     "sea_level": 1006,
                     "grnd_level": 1001,
@@ -6276,10 +6276,10 @@ const mockAPI5days = {
             {
                 "dt": 1749567600,
                 "main": {
-                    "temp": 311.84,
-                    "feels_like": 309.3,
-                    "temp_min": 311.84,
-                    "temp_max": 311.84,
+                    "temp": 38.69,
+                    "feels_like": 36.15,
+                    "temp_min": 38.69,
+                    "temp_max": 38.69,
                     "pressure": 1005,
                     "sea_level": 1005,
                     "grnd_level": 1000,
@@ -6312,10 +6312,10 @@ const mockAPI5days = {
             {
                 "dt": 1749578400,
                 "main": {
-                    "temp": 304.11,
-                    "feels_like": 302.59,
-                    "temp_min": 304.11,
-                    "temp_max": 304.11,
+                    "temp": 30.96,
+                    "feels_like": 29.44,
+                    "temp_min": 30.96,
+                    "temp_max": 30.96,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1003,
@@ -6348,10 +6348,10 @@ const mockAPI5days = {
             {
                 "dt": 1749589200,
                 "main": {
-                    "temp": 300.56,
-                    "feels_like": 300.32,
-                    "temp_min": 300.56,
-                    "temp_max": 300.56,
+                    "temp": 27.41,
+                    "feels_like": 27.17,
+                    "temp_min": 27.41,
+                    "temp_max": 27.41,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6384,10 +6384,10 @@ const mockAPI5days = {
             {
                 "dt": 1749600000,
                 "main": {
-                    "temp": 298.5,
-                    "feels_like": 298.32,
-                    "temp_min": 298.5,
-                    "temp_max": 298.5,
+                    "temp": 25.35,
+                    "feels_like": 25.17,
+                    "temp_min": 25.35,
+                    "temp_max": 25.35,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1002,
@@ -6420,10 +6420,10 @@ const mockAPI5days = {
             {
                 "dt": 1749610800,
                 "main": {
-                    "temp": 297.02,
-                    "feels_like": 296.87,
-                    "temp_min": 297.02,
-                    "temp_max": 297.02,
+                    "temp": 23.87,
+                    "feels_like": 23.72,
+                    "temp_min": 23.87,
+                    "temp_max": 23.87,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1002,
@@ -6456,10 +6456,10 @@ const mockAPI5days = {
             {
                 "dt": 1749621600,
                 "main": {
-                    "temp": 299.96,
-                    "feels_like": 299.97,
-                    "temp_min": 299.96,
-                    "temp_max": 299.96,
+                    "temp": 26.81,
+                    "feels_like": 26.82,
+                    "temp_min": 26.81,
+                    "temp_max": 26.81,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6492,10 +6492,10 @@ const mockAPI5days = {
             {
                 "dt": 1749632400,
                 "main": {
-                    "temp": 306.24,
-                    "feels_like": 304.25,
-                    "temp_min": 306.24,
-                    "temp_max": 306.24,
+                    "temp": 33.09,
+                    "feels_like": 31.1,
+                    "temp_min": 33.09,
+                    "temp_max": 33.09,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1002,
@@ -6528,10 +6528,10 @@ const mockAPI5days = {
             {
                 "dt": 1749643200,
                 "main": {
-                    "temp": 310.11,
-                    "feels_like": 307.51,
-                    "temp_min": 310.11,
-                    "temp_max": 310.11,
+                    "temp": 36.96,
+                    "feels_like": 34.36,
+                    "temp_min": 36.96,
+                    "temp_max": 36.96,
                     "pressure": 1006,
                     "sea_level": 1006,
                     "grnd_level": 1000,
@@ -6564,10 +6564,10 @@ const mockAPI5days = {
             {
                 "dt": 1749654000,
                 "main": {
-                    "temp": 311.84,
-                    "feels_like": 309.46,
-                    "temp_min": 311.84,
-                    "temp_max": 311.84,
+                    "temp": 38.69,
+                    "feels_like": 36.31,
+                    "temp_min": 38.69,
+                    "temp_max": 38.69,
                     "pressure": 1005,
                     "sea_level": 1005,
                     "grnd_level": 999,
@@ -6600,10 +6600,10 @@ const mockAPI5days = {
             {
                 "dt": 1749664800,
                 "main": {
-                    "temp": 305.15,
-                    "feels_like": 303.47,
-                    "temp_min": 305.15,
-                    "temp_max": 305.15,
+                    "temp": 32,
+                    "feels_like": 30.32,
+                    "temp_min": 32,
+                    "temp_max": 32,
                     "pressure": 1008,
                     "sea_level": 1008,
                     "grnd_level": 1002,
@@ -6636,10 +6636,10 @@ const mockAPI5days = {
             {
                 "dt": 1749675600,
                 "main": {
-                    "temp": 301.23,
-                    "feels_like": 300.69,
-                    "temp_min": 301.23,
-                    "temp_max": 301.23,
+                    "temp": 28.08,
+                    "feels_like": 27.54,
+                    "temp_min": 28.08,
+                    "temp_max": 28.08,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6672,10 +6672,10 @@ const mockAPI5days = {
             {
                 "dt": 1749686400,
                 "main": {
-                    "temp": 298.63,
-                    "feels_like": 298.54,
-                    "temp_min": 298.63,
-                    "temp_max": 298.63,
+                    "temp": 25.48,
+                    "feels_like": 25.39,
+                    "temp_min": 25.48,
+                    "temp_max": 25.48,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6708,10 +6708,10 @@ const mockAPI5days = {
             {
                 "dt": 1749697200,
                 "main": {
-                    "temp": 296.94,
-                    "feels_like": 297.1,
-                    "temp_min": 296.94,
-                    "temp_max": 296.94,
+                    "temp": 23.79,
+                    "feels_like": 23.95,
+                    "temp_min": 23.79,
+                    "temp_max": 23.79,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6744,10 +6744,10 @@ const mockAPI5days = {
             {
                 "dt": 1749708000,
                 "main": {
-                    "temp": 299.57,
-                    "feels_like": 299.57,
-                    "temp_min": 299.57,
-                    "temp_max": 299.57,
+                    "temp": 26.42,
+                    "feels_like": 26.42,
+                    "temp_min": 26.42,
+                    "temp_max": 26.42,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -6780,10 +6780,10 @@ const mockAPI5days = {
             {
                 "dt": 1749718800,
                 "main": {
-                    "temp": 305.94,
-                    "feels_like": 304.76,
-                    "temp_min": 305.94,
-                    "temp_max": 305.94,
+                    "temp": 32.79,
+                    "feels_like": 31.61,
+                    "temp_min": 32.79,
+                    "temp_max": 32.79,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6816,10 +6816,10 @@ const mockAPI5days = {
             {
                 "dt": 1749729600,
                 "main": {
-                    "temp": 310.91,
-                    "feels_like": 308.6,
-                    "temp_min": 310.91,
-                    "temp_max": 310.91,
+                    "temp": 37.76,
+                    "feels_like": 35.45,
+                    "temp_min": 37.76,
+                    "temp_max": 37.76,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1001,
@@ -6852,10 +6852,10 @@ const mockAPI5days = {
             {
                 "dt": 1749740400,
                 "main": {
-                    "temp": 312.83,
-                    "feels_like": 310.36,
-                    "temp_min": 312.83,
-                    "temp_max": 312.83,
+                    "temp": 39.68,
+                    "feels_like": 37.21,
+                    "temp_min": 39.68,
+                    "temp_max": 39.68,
                     "pressure": 1006,
                     "sea_level": 1006,
                     "grnd_level": 1000,
@@ -6888,10 +6888,10 @@ const mockAPI5days = {
             {
                 "dt": 1749751200,
                 "main": {
-                    "temp": 305.62,
-                    "feels_like": 304.51,
-                    "temp_min": 305.62,
-                    "temp_max": 305.62,
+                    "temp": 32.47,
+                    "feels_like": 31.36,
+                    "temp_min": 32.47,
+                    "temp_max": 32.47,
                     "pressure": 1009,
                     "sea_level": 1009,
                     "grnd_level": 1003,
@@ -6924,10 +6924,10 @@ const mockAPI5days = {
             {
                 "dt": 1749762000,
                 "main": {
-                    "temp": 301.49,
-                    "feels_like": 301.52,
-                    "temp_min": 301.49,
-                    "temp_max": 301.49,
+                    "temp": 28.34,
+                    "feels_like": 28.37,
+                    "temp_min": 28.34,
+                    "temp_max": 28.34,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -6960,10 +6960,10 @@ const mockAPI5days = {
             {
                 "dt": 1749772800,
                 "main": {
-                    "temp": 299.11,
-                    "feels_like": 299.11,
-                    "temp_min": 299.11,
-                    "temp_max": 299.11,
+                    "temp": 25.96,
+                    "feels_like": 25.96,
+                    "temp_min": 25.96,
+                    "temp_max": 25.96,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -6996,10 +6996,10 @@ const mockAPI5days = {
             {
                 "dt": 1749783600,
                 "main": {
-                    "temp": 297.63,
-                    "feels_like": 297.86,
-                    "temp_min": 297.63,
-                    "temp_max": 297.63,
+                    "temp": 24.48,
+                    "feels_like": 24.71,
+                    "temp_min": 24.48,
+                    "temp_max": 24.48,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -7032,10 +7032,10 @@ const mockAPI5days = {
             {
                 "dt": 1749794400,
                 "main": {
-                    "temp": 300.79,
-                    "feels_like": 301.13,
-                    "temp_min": 300.79,
-                    "temp_max": 300.79,
+                    "temp": 27.64,
+                    "feels_like": 27.98,
+                    "temp_min": 27.64,
+                    "temp_max": 27.64,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -7068,10 +7068,10 @@ const mockAPI5days = {
             {
                 "dt": 1749805200,
                 "main": {
-                    "temp": 307.51,
-                    "feels_like": 305.96,
-                    "temp_min": 307.51,
-                    "temp_max": 307.51,
+                    "temp": 34.36,
+                    "feels_like": 32.81,
+                    "temp_min": 34.36,
+                    "temp_max": 34.36,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -7104,10 +7104,10 @@ const mockAPI5days = {
             {
                 "dt": 1749816000,
                 "main": {
-                    "temp": 312.47,
-                    "feels_like": 310.16,
-                    "temp_min": 312.47,
-                    "temp_max": 312.47,
+                    "temp": 39.32,
+                    "feels_like": 37.01,
+                    "temp_min": 39.32,
+                    "temp_max": 39.32,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1002,
@@ -7140,10 +7140,10 @@ const mockAPI5days = {
             {
                 "dt": 1749826800,
                 "main": {
-                    "temp": 312.98,
-                    "feels_like": 310.53,
-                    "temp_min": 312.98,
-                    "temp_max": 312.98,
+                    "temp": 39.83,
+                    "feels_like": 37.38,
+                    "temp_min": 39.83,
+                    "temp_max": 39.83,
                     "pressure": 1007,
                     "sea_level": 1007,
                     "grnd_level": 1001,
@@ -7176,10 +7176,10 @@ const mockAPI5days = {
             {
                 "dt": 1749837600,
                 "main": {
-                    "temp": 304.83,
-                    "feels_like": 303.5,
-                    "temp_min": 304.83,
-                    "temp_max": 304.83,
+                    "temp": 31.68,
+                    "feels_like": 30.35,
+                    "temp_min": 31.68,
+                    "temp_max": 31.68,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1005,
@@ -7212,10 +7212,10 @@ const mockAPI5days = {
             {
                 "dt": 1749848400,
                 "main": {
-                    "temp": 300.59,
-                    "feels_like": 300.86,
-                    "temp_min": 300.59,
-                    "temp_max": 300.59,
+                    "temp": 27.44,
+                    "feels_like": 27.71,
+                    "temp_min": 27.44,
+                    "temp_max": 27.44,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1006,
@@ -7248,10 +7248,10 @@ const mockAPI5days = {
             {
                 "dt": 1749859200,
                 "main": {
-                    "temp": 298.7,
-                    "feels_like": 298.83,
-                    "temp_min": 298.7,
-                    "temp_max": 298.7,
+                    "temp": 25.55,
+                    "feels_like": 25.68,
+                    "temp_min": 25.55,
+                    "temp_max": 25.55,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1005,
@@ -7284,10 +7284,10 @@ const mockAPI5days = {
             {
                 "dt": 1749870000,
                 "main": {
-                    "temp": 297.88,
-                    "feels_like": 297.92,
-                    "temp_min": 297.88,
-                    "temp_max": 297.88,
+                    "temp": 24.73,
+                    "feels_like": 24.77,
+                    "temp_min": 24.73,
+                    "temp_max": 24.73,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -7320,10 +7320,10 @@ const mockAPI5days = {
             {
                 "dt": 1749880800,
                 "main": {
-                    "temp": 301.25,
-                    "feels_like": 301.05,
-                    "temp_min": 301.25,
-                    "temp_max": 301.25,
+                    "temp": 28.1,
+                    "feels_like": 27.9,
+                    "temp_min": 28.1,
+                    "temp_max": 28.1,
                     "pressure": 1011,
                     "sea_level": 1011,
                     "grnd_level": 1005,
@@ -7356,10 +7356,10 @@ const mockAPI5days = {
             {
                 "dt": 1749891600,
                 "main": {
-                    "temp": 307.16,
-                    "feels_like": 305.32,
-                    "temp_min": 307.16,
-                    "temp_max": 307.16,
+                    "temp": 34.01,
+                    "feels_like": 32.17,
+                    "temp_min": 34.01,
+                    "temp_max": 34.01,
                     "pressure": 1010,
                     "sea_level": 1010,
                     "grnd_level": 1004,
@@ -7407,7 +7407,7 @@ const mockAPI5days = {
 }
 
 export const fetchWeather5days = async (city) => {
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 1));
     return mockAPI5days[city]
 };
 
