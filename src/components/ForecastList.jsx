@@ -1,36 +1,29 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import "../styles/styles.css";
-import mockAPI5days, {fetchWeather5days} from "../utils/mockAPI5days";
 
 const API_KEY = process.env.REACT_APP_OWM_API_KEY;
 
-const ForecastList = ({city, fetch5dayForecast}) => {
+const ForecastList = ({city, fetch5dayForecast, settings}) => {
     const [forecast, setForecast] = useState([]);
     const [error, setError] = useState(null);
-
-    const mockdata5daysPromise = fetchWeather5days(city);
 
     useEffect(() => {
         const fetchForecast = async () => {
             if (!city) return;
 
-            try {
-                // const response = await axios.get(
-                //     `https://api.openweathermap.org/data/2.5/forecast`, {
-                //         params: {
-                //             q: city,
-                //             units: 'metric',
-                //             appid: API_KEY
-                //         }
-                //     });
-                //
-                // const data = response.data.list;
-                // console.log(data);
-                // real API
+            const {unit} = settings;
 
-                const res = await fetchWeather5days(city);
-                const data = res.list;
+            try {
+                const res = await axios.get(
+                    `https://api.openweathermap.org/data/2.5/forecast`, {
+                        params: {
+                            q: city,
+                            units: unit,
+                            appid: API_KEY
+                        }
+                    });
+                const data = res.data.list;
                 console.log(data);
 
                 const dailyMap = {};
@@ -73,8 +66,6 @@ const ForecastList = ({city, fetch5dayForecast}) => {
 
     if (error) return <p>{error}</p>;
     if (!forecast.length) return <p>Loading forecast...</p>;
-
-    //fetching data from mock API
 
     fetch5dayForecast(forecast);
 

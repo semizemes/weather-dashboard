@@ -1,5 +1,6 @@
 
 
+/* ForecastList.jsx part */
 
 .forecast-container {
     display: flex;
@@ -29,4 +30,40 @@
 
 .forecast-card p {
     margin: 4px 0;
+}
+
+
+/* SettingsPanel.jsx part */
+
+.settings-panel {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+.setting-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* WeatherDisplay.jsx part */
+
+.weather-display {
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    text-align: center;
+}
+.weather-details p {
+    margin: 5px 0;
+}
+img {
+    margin: 10px;
 }

@@ -8,7 +8,9 @@ import SettingsPanel from "./SettingsPanel";
 const WeatherWidget = () => {
     const [selectedCity, setSelectedCity] = useState(null);
     const [fiveDayForecast, setFiveDayForecast] = useState([]);
-    const [settings, setSettings] = useState(null);
+    const [settings, setSettings] = useState({
+        unit: "metric"
+    });
 
     const handleCityChange = (city) => {
         setSelectedCity(city);
@@ -24,14 +26,14 @@ const WeatherWidget = () => {
         // For example, updating the weather display format or refresh rate
     }
 
-    console.log(fiveDayForecast);
+    // console.log(fiveDayForecast);
 
     return (
         <div className='weather-widget'>
             <CitySelector onCityChange={handleCityChange} />
-            <WeatherDisplay city={selectedCity} />
-            <ForecastList city={selectedCity} fetch5dayForecast={handleFiveDayForecast} />
+            <WeatherDisplay city={selectedCity} settings={settings} />
             <DataVisualization forecast={fiveDayForecast} />
+            <ForecastList settings={settings} city={selectedCity} fetch5dayForecast={handleFiveDayForecast} />
             <SettingsPanel onSettingsChange={handleSettingsChange} />
         </div>
     )

@@ -21,7 +21,6 @@ const SettingsPanel = ({onSettingsChange}) => {
 
     const displayOptions = [
         {value: 'detailed', label: 'Detailed View'},
-        {value: 'compact', label: 'Compact View'},
         {value: 'minimal', label: 'Minimal View'}
     ];
 
@@ -58,25 +57,6 @@ const SettingsPanel = ({onSettingsChange}) => {
                     options={displayOptions}
                 />
             </div>
-            <style jsx>{`
-        .settings-panel {
-          padding: 20px;
-          background-color: #f5f5f5;
-          border-radius: 8px;
-        }
-        .setting-group {
-          margin-bottom: 15px;
-        }
-        label {
-          display: block;
-          margin-bottom: 5px;
-          font-weight: bold;
-        }
-        h2 {
-          margin-top: 0;
-          margin-bottom: 20px;
-        }
-      `}</style>
         </div>
     );
 };
