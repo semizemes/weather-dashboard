@@ -4,7 +4,7 @@ import Select from 'react-select';
 const SettingsPanel = ({onSettingsChange}) => {
     const [settings, setSettings] = useState({
         units: {value: 'metric', label: 'Metric'},
-        refreshRate: {value: 30, label: '30 seconds'},
+        refreshRate: {value: 7200, label: '2 hours'},
         displayOptions: {value: 'detailed', label: 'Detailed View'}
     });
 
@@ -14,9 +14,9 @@ const SettingsPanel = ({onSettingsChange}) => {
     ];
 
     const refreshRateOptions = [
-        {value: 15, label: '15 seconds'},
-        {value: 30, label: '30 seconds'},
-        {value: 60, label: '1 minute'}
+        {value: 1800, label: '30 minutes'},
+        {value: 3600, label: '1 hour'},
+        {value: 7200, label: '2 hours'}
     ];
 
     const displayOptions = [

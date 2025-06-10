@@ -12,14 +12,14 @@ const ForecastList = ({city, fetch5dayForecast, settings}) => {
         const fetchForecast = async () => {
             if (!city) return;
 
-            const {unit} = settings;
+            const {units} = settings;
 
             try {
                 const res = await axios.get(
                     `https://api.openweathermap.org/data/2.5/forecast`, {
                         params: {
                             q: city,
-                            units: unit,
+                            units: units.value,
                             appid: API_KEY
                         }
                     });
@@ -62,7 +62,7 @@ const ForecastList = ({city, fetch5dayForecast, settings}) => {
             }
         };
         fetchForecast();
-    }, [city]);
+    }, [city, settings]);
 
     if (error) return <p>{error}</p>;
     if (!forecast.length) return <p>Loading forecast...</p>;
@@ -79,9 +79,9 @@ const ForecastList = ({city, fetch5dayForecast, settings}) => {
                         alt={day.description}
                     />
                     <p>{day.description}</p>
-                    <p><strong>Min:</strong> {day.min}°C</p>
-                    <p><strong>Max:</strong> {day.max}°C</p>
-                    <p><strong>Avg:</strong> {day.avg}°C</p>
+                    <p><strong>Min:</strong> {day.min}°{settings.units.value === 'metric' ? 'C' : 'F'}</p>
+                    <p><strong>Max:</strong> {day.max}°{settings.units.value === 'metric' ? 'C' : 'F'}</p>
+                    <p><strong>Avg:</strong> {day.avg}°{settings.units.value === 'metric' ? 'C' : 'F'}</p>
                 </div>
             ))}
         </div>

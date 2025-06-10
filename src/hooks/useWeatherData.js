@@ -16,18 +16,17 @@ const useWeatherData = (city, settings ) => {
             setLoading(true);
             setError(null);
 
-            const {unit} = settings
+            const {units} = settings
 
             try {
                 const data = await axios.get(
                     `http://api.openweathermap.org/data/2.5/weather`, {
                         params: {
                             q: city,
-                            units: unit,
+                            units: units.value,
                             appid: API_KEY
                         }
                     });
-                console.log(unit);
                 setWeatherData(data);
             } catch (err) {
                 setError("Failed to fetch weather data");
@@ -37,7 +36,7 @@ const useWeatherData = (city, settings ) => {
         };
 
         fetchData();
-    }, [city]);
+    }, [city, settings]);
 
     return {weatherData, loading, error};
 };

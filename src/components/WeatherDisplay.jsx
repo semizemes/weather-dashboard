@@ -17,9 +17,9 @@ const WeatherDisplay = ({city, settings}) => {
         <div className="weather-display">
             <h2>Weather in {weatherData.city || city}</h2>
             <div className="weather-details">
-                <p><strong>Temperature:</strong> {weatherData.data.main.temp}°C</p>
+                <p><strong>Temperature:</strong> {weatherData.data.main.temp}°{settings.units.value === 'metric' ? 'C' : 'F'}</p>
                 <p><strong>Humidity:</strong> {weatherData.data.main.humidity}%</p>
-                <p><strong>Wind Speed:</strong> {weatherData.data.wind.speed} m/s</p>
+                <p><strong>Wind Speed:</strong> {weatherData.data.wind.speed} {settings.units.value === 'metric' ? 'm/s' : 'mph'}</p>
                 <p><strong>Weather:</strong> {weatherData.data.weather[0].description}</p>
                 <img
                     src={`https://openweathermap.org/img/wn/${weatherData.data.weather[0].icon}@2x.png`}
