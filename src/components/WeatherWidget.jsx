@@ -56,10 +56,14 @@ const WeatherWidget = () => {
             )}
             <WeatherDisplay city={selectedCity} settings={settings}/>
             {settings.displayOptions.value === 'detailed' && (
-    <div>
+    <div className="visualization-and-forecast">
+    <div className="visualization">
         <DataVisualization forecast={fiveDayForecast} />
+    </div>
+    <div className="forecast">
         <ForecastList settings={settings} city={selectedCity} fetch5dayForecast={setFiveDayForecast} />
     </div>
+</div>
 )}
     <SettingsPanel onSettingsChange={handleSettingsChange}/>
 </div>
